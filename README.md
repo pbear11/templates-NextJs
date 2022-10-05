@@ -1,14 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Next JS version 12 + TailwindCSS 3 and Typescript project</h1>
+### Contents:
+  - [About project](#categories)
+      - [Requirements](#requirements-)
+      - [How to run 🚀](#game-mode-)
+      - [Features](#features-)
+      - [Project structure](#Project-structure-)
+      - [Additional information related to structure and Next.js](#Additional-info-)
+      - [Packages](#Packages-)
+  - [Tools](#tools)
+  - [Articles](#articles)
+  - [Video Tutorials](#tutorials)
+  - [Contribute](#contribute)
+  - [License](#license)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -22,21 +26,53 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ### Project stack
 This project is using TypeScript and Sass, TailwindCss.  
 
-## Project structure
-### Images and assets
+--------------------------------
+#### Requirements
+Node.js 14+ and npm
+
+#### How to run
+
+Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+#### Features
+- Next generation React Framework [Next.js](https://nextjs.org)
+- Type checking with [TypeScript](https://www.typescriptlang.org)
+- Clean CSS writing with [Tailwind CSS](https://tailwindcss.com)
+- Lint, Prettier and TypeScript etc configurations
+- Unit testing with Jest
+- E2E testing with Cypress
+
+#### Project structure
+
+```
+.
+├── README.md                       # README file
+├── .vscode                         # VSCode configuration
+├── public                          # Public assets folder
+├── src
+│   ├── pages                       # Next JS Pages
+│   ├── styles                      # Styles folder
+│   └── utils                       # Utility functions
+├── tailwind.config.js              # Tailwind CSS configuration
+└── tsconfig.json                   # TypeScript configuration
+```
+
+#### Additional information related to structure and Next.js
+##### Images and assets
 Images are inside `images` directory inside of `public` directory.
 > Next.js provides `Image` component, which automatically handle image lazy loading and responsive image for different screens. 
 
-### Styles
+##### Styles
 - CSS modules: CSS modules locally scope CSS by automatically creating uniq class name. This allows us to use the same CSS class name in different files. CSS modules are located inside *** directory and can be imported anywhere.
 - Global stylesheet: Base CSS loaded by every page. It(`globals.scss`) located inside styles directory.
 
-
-
-
-
 ---
-### Packages
+#### Packages
 ##### Packages for styling
 - tailwind + postcss
 - Sass

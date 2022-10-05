@@ -17,8 +17,8 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
+        <p className="text-3xl font-bold underline">
+          This line is using Tailwind style example{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
