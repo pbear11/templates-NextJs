@@ -1,17 +1,18 @@
 <h1 align="center"> Next JS version 12 + TailwindCSS 3 and Typescript project</h1>
-### Contents:
-- [Contents:](#contents)
-- [Project stack](#project-stack)
-  - [Requirements](#requirements)
-  - [How to run](#how-to-run)
-  - [Features](#features)
-  - [Project structure](#project-structure)
-  - [Additional information related to structure and Next.js](#additional-information-related-to-structure-and-nextjs)
-    - [Images and assets](#images-and-assets)
-    - [Styles](#styles)
-  - [Packages](#packages)
-    - [Packages for styling](#packages-for-styling)
-    - [Packages for code styling](#packages-for-code-styling)
+### Contents
+
+1. Contents
+   - Project stack
+   - Requirements
+   - How to run
+   - Features
+   - Project structure
+     - Additional information related to structure and Next.js
+     - Images and asset
+     - Styles
+   - Packages
+     - Packages for styling
+     - Packages for code styling
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
