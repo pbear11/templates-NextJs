@@ -1,17 +1,17 @@
 <h1 align="center"> Next JS version 12 + TailwindCSS 3 and Typescript project</h1>
 ### Contents:
-  - [About project](#categories)
-      - [Requirements](#requirements-)
-      - [How to run 🚀](#game-mode-)
-      - [Features](#features-)
-      - [Project structure](#Project-structure-)
-      - [Additional information related to structure and Next.js](#Additional-info-)
-      - [Packages](#Packages-)
-  - [Tools](#tools)
-  - [Articles](#articles)
-  - [Video Tutorials](#tutorials)
-  - [Contribute](#contribute)
-  - [License](#license)
+- [Contents:](#contents)
+- [Project stack](#project-stack)
+  - [Requirements](#requirements)
+  - [How to run](#how-to-run)
+  - [Features](#features)
+  - [Project structure](#project-structure)
+  - [Additional information related to structure and Next.js](#additional-information-related-to-structure-and-nextjs)
+    - [Images and assets](#images-and-assets)
+    - [Styles](#styles)
+  - [Packages](#packages)
+    - [Packages for styling](#packages-for-styling)
+    - [Packages for code styling](#packages-for-code-styling)
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -24,7 +24,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ---
 ### Project stack
-This project is using TypeScript and Sass, TailwindCss.  
+This project is using TypeScript and Sass, TailwindCss.  And it includes example of basic functions and feature's usage.
+![Example](./example.png)
 
 --------------------------------
 #### Requirements
@@ -58,6 +59,8 @@ yarn dev
 │   ├── pages                       # Next JS Pages
 │   ├── styles                      # Styles folder
 │   └── utils                       # Utility functions
+│   └── store                       # Redux, state management
+│   └── services                    # Services, api calls.
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
